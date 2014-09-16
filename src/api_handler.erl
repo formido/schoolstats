@@ -14,7 +14,7 @@ init(_, Req, _Opts) ->
 handle(Req, State) ->
     {ok, Req2} = cowboy_req:reply(200, [
 					{<<"content-type">>, <<"text/plain">>}
-					], <<"Hello world!">>, Req),
+					], os:cmd("phantomjs --version"), Req),
     {ok, Req2, State}.
 
 terminate(_Reason, _Req, _State) ->

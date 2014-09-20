@@ -12,10 +12,10 @@ init(_, Req, _Opts) ->
 	{ok, Req, #state{}}.
 
 handle(Req, State) ->
-    Script = filename:join(code:lib_dir(schoolstats), 'bin/sch.js'),
+    Script = filename:join(code:lib_dir(schoolstats), 'bin/school.js'),
     {ok, Req2} = cowboy_req:reply(200, [
 					{<<"content-type">>, <<"text/plain">>}
-					], os:cmd("phantomjs "++Script), Req),
+					], os:cmd(Script), Req),
     {ok, Req2, State}.
 
 terminate(_Reason, _Req, _State) ->

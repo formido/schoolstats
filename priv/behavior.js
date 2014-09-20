@@ -1,5 +1,7 @@
-function testme() {
-    $('#testme').html('It worked');
+function start() {
+  $.getJSON('api', function(data) {
+    skewer.log(data['color']);
+  });
 };
 
-$(document).ready(testme);
+$(document).ready(start);

@@ -1,0 +1,16 @@
+.eunit
+deps
+*.o
+*.beam
+*.plt
+erl_crash.dump
+.erlang.mk.packages.v1
+_rel
+ebin
+relx
+
+# portal login credentials
+config
+
+# emacs back-ups
+.\#*

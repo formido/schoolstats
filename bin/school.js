@@ -1,12 +1,12 @@
 #!/usr/bin/env phantomjs
 
-// STUDENT_ID=id PORTAL_PIN=username PORTAL_PASS=password phantomjs --web-security=false school1.js
-
 phantom.injectJs('tinker.js');
-tinker.synchLoadScriptsFromUrls('http://localhost:8080/skewer');
 
+// STUDENT_ID=id PORTAL_PIN=username PORTAL_PASS=password phantomjs --web-security=false school1.js
 phantom.injectJs('js-signals.min.js');
 phantom.injectJs('crossroads.js');
+
+var fs = require('fs');
 
 crossroads.ignoreState = true;
 
@@ -91,12 +91,18 @@ crossroads.addRoute('https://qweb.venturausd.org/ParentPortal/Home/PortalMainPag
 	}).get();
       }
 
-      return JSON.stringify(report());
+      return JSON.stringify(report(), undefined, 2);
     });
+    var dateSecs = Math.round(new Date().getTime()/1000.0);
+    var path = fs.workingDirectory + '/test/' + dateSecs + '.json';
+    fs.write(path, json, 'w');
     console.log(json);
-    phantom.exit();
+    if (!dev) {
+      phantom.exit();
+    }
   }
 });
+
 
 var webPage = require('webpage');
 var page = webPage.create();
@@ -143,7 +149,7 @@ function optionParser() {
 optionParser();
 
 if (dev) {
-  tinker.synchLoadScriptsFromUrls('http://localhost:8080/skewer');
+  tinker.synchLoadScriptsFromUrls('http://localhost:8001/skewer');
   console.info('...development');
 } else {
   console.info('...production');

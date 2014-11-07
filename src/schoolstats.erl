@@ -54,8 +54,9 @@ init([]) ->
     {ok, #state{}}.
 
 handle_call(get_last_grades, _From, State) ->
-    {ok, Bin} = file:read_file(filename:join([code:lib_dir(schoolstats), 'test', integer_to_list(last_time()) ++ ".json"])),
-    {reply, Bin, State};
+    LastTime = integer_to_list(last_time()),
+    {ok, Bin} = file:read_file(filename:join([code:lib_dir(schoolstats), 'test', LastTime ++ ".json"])),
+    {reply, ["{\"date\": ", LastTime, ", \"grades\": ", Bin, "}"], State};
 handle_call(_Request, _From, State) ->
     {reply, ignored, State}.
 

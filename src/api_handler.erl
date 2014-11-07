@@ -12,9 +12,7 @@ init(_, Req, _Opts) ->
 	{ok, Req, #state{}}.
 
 handle(Req, State) ->
-    %% Script = Filename:join(code:lib_dir(schoolstats), 'bin/school.js'),
-    %% Result = os:cmd(Script),
-    {ok, Result} = file:read_file('test/test.json'),
+    Result = schoolstats:get_last_grades(),
     {ok, Req2} = cowboy_req:reply(200, [
 					{<<"content-type">>, <<"text/plain">>}
 					], Result, Req),

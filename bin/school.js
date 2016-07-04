@@ -1,5 +1,7 @@
 #!/usr/bin/env phantomjs
 
+console.log("hello");
+
 phantom.injectJs('tinker.js');
 
 // STUDENT_ID=id PORTAL_PIN=username PORTAL_PASS=password phantomjs --web-security=false school1.js
@@ -114,10 +116,14 @@ page.onConsoleMessage = function(msg) {
 };
 
 page.onLoadFinished = function(status) {
-    console.info('Status: ' + status);
-    console.info('Url: ' + page.url);
+  console.info('Status: ' + status);
+  console.info('Url: ' + page.url);
 
-    crossroads.parse(page.url);
+  if (status === 'fail') {
+    phantom.exit();
+  }
+
+  crossroads.parse(page.url);
 
   // Do other things here...
 };
@@ -153,5 +159,5 @@ if (dev) {
   console.info('...development');
 } else {
   console.info('...production');
-  page.open('https://qweb.venturausd.org/ParentPortal/');
+  page.open('https://www.google.com/');
 }

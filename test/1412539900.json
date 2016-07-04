@@ -1,0 +1,185 @@
+[
+    {
+        "assignments": [
+            {
+                "Assigned": "09/17/2014",
+                "Assignment": "Dibujos 2.3",
+                "Comments": "",
+                "Date Due": "09/18/2014",
+                "Detail": "\n\n\t\t\t\t\t\t\t\t\t\u00a0\n\n\t\t\t\t\t\t\t",
+                "ExtraCredit": "\u00a0",
+                "NotGraded": "\u00a0",
+                "PtsPossible": "5",
+                "Scored As": "",
+                "\u00a0\u00a0Score\u00a0\u00a0": "5"
+            },
+            {
+                "Assigned": "09/16/2014",
+                "Assignment": "Prueba 2.2",
+                "Comments": "",
+                "Date Due": "09/16/2014",
+                "Detail": "\n\n\t\t\t\t\t\t\t\t\t\u00a0\n\n\t\t\t\t\t\t\t",
+                "ExtraCredit": "\u00a0",
+                "NotGraded": "\u00a0",
+                "PtsPossible": "9",
+                "Scored As": "",
+                "\u00a0\u00a0Score\u00a0\u00a0": "9"
+            }
+        ],
+        "grade": "A+",
+        "name": "Spanish"
+    },
+    {
+        "assignments": [
+            {
+                "Assigned": "09/22/2014",
+                "Assignment": "Hobbes wksht",
+                "Comments": "",
+                "Date Due": "09/24/2014",
+                "Detail": "\n\n\t\t\t\t\t\t\t\t\t\u00a0\n\n\t\t\t\t\t\t\t",
+                "ExtraCredit": "\u00a0",
+                "NotGraded": "",
+                "PctScore": "100%",
+                "PtsPossible": "10",
+                "Scored As": "",
+                "\u00a0\u00a0Score\u00a0\u00a0": "10"
+            }
+        ],
+        "grade": "A+  (99.5%) ",
+        "name": "WHist/Cul/Geo"
+    },
+    {
+        "assignments": [
+            {
+                "Assigned": "09/17/2014",
+                "Assignment": "ch 2 homework",
+                "Comments": "",
+                "Date Due": "09/17/2014",
+                "Detail": "\n\n\t\t\t\t\t\t\t\t\t\u00a0\n\n\t\t\t\t\t\t\t",
+                "ExtraCredit": "\u00a0",
+                "NotGraded": "\u00a0",
+                "PtsPossible": "100",
+                "Scored As": "",
+                "\u00a0\u00a0Score\u00a0\u00a0": "100"
+            },
+            {
+                "Assigned": "09/16/2014",
+                "Assignment": "Equation Search",
+                "Comments": "",
+                "Date Due": "09/16/2014",
+                "Detail": "\n\n\t\t\t\t\t\t\t\t\t\u00a0\n\n\t\t\t\t\t\t\t",
+                "ExtraCredit": "",
+                "NotGraded": "\u00a0",
+                "PtsPossible": "10",
+                "Scored As": "",
+                "\u00a0\u00a0Score\u00a0\u00a0": "10"
+            }
+        ],
+        "grade": "A-",
+        "name": "Algebra"
+    },
+    {
+        "assignments": [
+            {
+                "Assigned": "09/24/2014",
+                "Assignment": "Unit 2",
+                "Comments": "",
+                "Date Due": "09/24/2014",
+                "Detail": "\n\n\t\t\t\t\t\t\t\t\t\u00a0\n\n\t\t\t\t\t\t\t",
+                "ExtraCredit": "\u00a0",
+                "NotGraded": "\u00a0",
+                "PctScore": "98%",
+                "PtsPossible": "255",
+                "Scored As": "",
+                "\u00a0\u00a0Score\u00a0\u00a0": "250"
+            },
+            {
+                "Assigned": "09/24/2014",
+                "Assignment": "Mile 3",
+                "Comments": "900",
+                "Date Due": "09/24/2014",
+                "Detail": "\n\n\t\t\t\t\t\t\t\t\t\u00a0\n\n\t\t\t\t\t\t\t",
+                "ExtraCredit": "\u00a0",
+                "NotGraded": "\u00a0",
+                "PctScore": "100%",
+                "PtsPossible": "20",
+                "Scored As": "",
+                "\u00a0\u00a0Score\u00a0\u00a0": "20"
+            }
+        ],
+        "grade": "A",
+        "name": "Phys"
+    },
+    {
+        "assignments": [
+            {
+                "Assigned": "09/19/2014",
+                "Assignment": "Study Guide on time",
+                "ClassAvg": "100%",
+                "Comments": "\u00a0",
+                "Date Due": "09/19/2014",
+                "Detail": "\n\n\t\t\t\t\t\t\t\t\t\u00a0\n\n\t\t\t\t\t\t\t",
+                "ExtraCredit": "",
+                "NotGraded": "\u00a0",
+                "PctScore": "",
+                "PtsPossible": "5",
+                "Scored As": "",
+                "\u00a0\u00a0Score\u00a0\u00a0": ""
+            },
+            {
+                "Assigned": "09/18/2014",
+                "Assignment": "quiz 9/18",
+                "ClassAvg": "64.2%",
+                "Comments": "",
+                "Date Due": "09/18/2014",
+                "Detail": "\n\n\t\t\t\t\t\t\t\t\t\u00a0\n\n\t\t\t\t\t\t\t",
+                "ExtraCredit": "\u00a0",
+                "NotGraded": "\u00a0",
+                "PctScore": "90%",
+                "PtsPossible": "10",
+                "Scored As": "",
+                "\u00a0\u00a0Score\u00a0\u00a0": "9"
+            },
+            {
+                "Assigned": "09/18/2014",
+                "Assignment": "Dens lab",
+                "ClassAvg": "68%",
+                "Comments": "",
+                "Date Due": "09/18/2014",
+                "Detail": "\n\n\t\t\t\t\t\t\t\t\t\u00a0\n\n\t\t\t\t\t\t\t",
+                "ExtraCredit": "\u00a0",
+                "NotGraded": "\u00a0",
+                "PctScore": "85%",
+                "PtsPossible": "20",
+                "Scored As": "",
+                "\u00a0\u00a0Score\u00a0\u00a0": "17"
+            },
+            {
+                "Assigned": "09/15/2014",
+                "Assignment": "9/15 quiz",
+                "ClassAvg": "63.2%",
+                "Comments": "",
+                "Date Due": "09/15/2014",
+                "Detail": "\n\n\t\t\t\t\t\t\t\t\t\u00a0\n\n\t\t\t\t\t\t\t",
+                "ExtraCredit": "\u00a0",
+                "NotGraded": "\u00a0",
+                "PctScore": "100%",
+                "PtsPossible": "10",
+                "Scored As": "",
+                "\u00a0\u00a0Score\u00a0\u00a0": "10"
+            }
+        ],
+        "grade": "B-  (80.7%) ",
+        "name": "Chemistry"
+    },
+    {
+        "assignments": [
+            {
+                "Detail": "No Assignments Available"
+            }
+        ],
+        "grade": "A",
+        "name": "English"
+    }
+]
+

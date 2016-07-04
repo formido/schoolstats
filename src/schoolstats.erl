@@ -74,10 +74,12 @@ handle_info(maybe_download_grades, State) ->
 	    ok
     end,
     {noreply, State};
-handle_info(_Info, State) ->
+handle_info(Info, State) ->
+    io:format("handle_info got: ~p~n", [Info]),
     {noreply, State}.
 
 terminate(_Reason, _State) ->
+    io:format("...terminating.~n"),
     ok.
 
 code_change(_OldVsn, State, _Extra) ->

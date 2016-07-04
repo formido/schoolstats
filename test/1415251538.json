@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Spanish",
+    "grade": "A",
+    "assignments": [
+      {
+        "Detail": "\n\n\t\t\t\t\t\t\t\t\t \n\n\t\t\t\t\t\t\t",
+        "Date Due": "11/03/2014",
+        "Assigned": "10/01/2014",
+        "Assignment": "DDLM Project",
+        "PtsPossible": "50",
+        "  Score  ": "37",
+        "Scored As": "",
+        "ExtraCredit": " ",
+        "NotGraded": " ",
+        "Comments": ""
+      }
+    ]
+  },
+  {
+    "name": "WHist/Cul/Geo",
+    "grade": "D-  (61.4%) ",
+    "assignments": [
+      {
+        "Detail": "\n\n\t\t\t\t\t\t\t\t\t  \n\n\t\t\t\t\t\t\t",
+        "Date Due": "11/04/2014",
+        "Assigned": "11/04/2014",
+        "Assignment": "Democratree",
+        "PtsPossible": "100",
+        "  Score  ": "",
+        "PctScore": "",
+        "Scored As": "",
+        "ExtraCredit": " ",
+        "NotGraded": "",
+        "Comments": " "
+      },
+      {
+        "Detail": "\n\n\t\t\t\t\t\t\t\t\t \n\n\t\t\t\t\t\t\t",
+        "Date Due": "10/30/2014",
+        "Assigned": "10/30/2014",
+        "Assignment": "Louis XVI Execution",
+        "PtsPossible": "10",
+        "  Score  ": "10",
+        "PctScore": "100%",
+        "Scored As": "",
+        "ExtraCredit": " ",
+        "NotGraded": " ",
+        "Comments": ""
+      }
+    ]
+  },
+  {
+    "name": "Algebra",
+    "grade": "A",
+    "assignments": [
+      {
+        "Detail": "\n\n\t\t\t\t\t\t\t\t\t \n\n\t\t\t\t\t\t\t",
+        "Date Due": "10/27/2014",
+        "Assigned": "10/27/2014",
+        "Assignment": "Dia de los Muertos - Famous Mathematician",
+        "PtsPossible": "10",
+        "  Score  ": "",
+        "Scored As": "",
+        "ExtraCredit": "",
+        "NotGraded": " ",
+        "Comments": " "
+      }
+    ]
+  },
+  {
+    "name": "Phys",
+    "grade": "A",
+    "assignments": [
+      {
+        "Detail": "\n\n\t\t\t\t\t\t\t\t\t \n\n\t\t\t\t\t\t\t",
+        "Date Due": "10/29/2014",
+        "Assigned": "10/29/2014",
+        "Assignment": "Mile 5",
+        "PtsPossible": "20",
+        "  Score  ": "5",
+        "PctScore": "25%",
+        "Scored As": "",
+        "ExtraCredit": " ",
+        "NotGraded": " ",
+        "Comments": "1053"
+      }
+    ]
+  },
+  {
+    "name": "Chemistry",
+    "grade": "C+  (79.1%) ",
+    "assignments": [
+      {
+        "Detail": "\n\n\t\t\t\t\t\t\t\t\t \n\n\t\t\t\t\t\t\t",
+        "Date Due": "10/31/2014",
+        "Assigned": "10/31/2014",
+        "Assignment": "Ch 4 qz",
+        "PtsPossible": "10",
+        "  Score  ": "10",
+        "PctScore": "100%",
+        "ClassAvg": "90.4%",
+        "Scored As": "",
+        "ExtraCredit": " ",
+        "NotGraded": " ",
+        "Comments": ""
+      },
+      {
+        "Detail": "\n\n\t\t\t\t\t\t\t\t\t \n\n\t\t\t\t\t\t\t",
+        "Date Due": "10/29/2014",
+        "Assigned": "10/29/2014",
+        "Assignment": "Rutherford lab",
+        "PtsPossible": "20",
+        "  Score  ": "15",
+        "PctScore": "75%",
+        "ClassAvg": "91.1%",
+        "Scored As": "",
+        "ExtraCredit": " ",
+        "NotGraded": " ",
+        "Comments": ""
+      }
+    ]
+  },
+  {
+    "name": "English",
+    "grade": "Not Available",
+    "assignments": [
+      {
+        "Detail": "No Assignments Available"
+      }
+    ]
+  }
+]
